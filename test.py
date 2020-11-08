@@ -45,5 +45,6 @@ def scamp(result_path, cat_path):
 
 
 if __name__ == "__main__":
-    cat_path = sextractor('result', 'SA_108_981-Ic-30s-20200502_054127-2.fit')
+    fits_path = 'test.fit'
+    cat_path = sextractor('result', fits_path)
     result = scamp('result', cat_path)

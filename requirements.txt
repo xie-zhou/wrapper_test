@@ -1,0 +1,4 @@
+astromatic-wrapper==0.0.dev259
+astropy==4.1
+dill==0.3.3
+six==1.14.0
