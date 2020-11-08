@@ -22,7 +22,7 @@ conda install -c conda-forge astromatic-scamp
 git clone https://github.com/fred3m/astromatic_wrapper.git
 ```
 随后打开当中的setup.py 修改第25行:
-```notepad
+```python
 25|conf = config.ConfigParser()
 25|conf = config.RawConfigParser()
 ```
